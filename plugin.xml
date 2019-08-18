@@ -25,9 +25,9 @@
             <uses-permission android:name="android.permission.INTERNET"/>
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
         </config-file>
-        <framework src="com.google.android.gms:play-services-games:+" />
-        <framework src="com.google.android.gms:play-services-identity:+" />
-        <framework src="com.google.android.gms:play-services-auth:+" />
+        <framework src="com.google.android.gms:play-services-games:16.+" />
+        <framework src="com.google.android.gms:play-services-identity:16.+" />
+        <framework src="com.google.android.gms:play-services-auth:16.+" />
 
         <source-file src="src/android/ConstructPlayGames.java" target-dir="src/com/scirra"/>
         <source-file src="src/android/TaskCounter.java" target-dir="src/com/scirra"/>
